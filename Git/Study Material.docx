@@ -1,0 +1,73 @@
+Github Tutorial.
+
+VS-Code – Github:
+Git Clone comment will clone the respositories  into local tools ( VS ) .
+.git file will be the bridge act to the github apps and VS tools. ( it will be hidden ).
+Moving the working folder to copy folder .
+Git  add text2.txt ( this will be added to the working folder ) .
+Untracked to status verified.
+But not yet to the github  app folder.
+Git commit -m “text2.txt added”
+Then push to clone folder to app folder:
+git push orgin(which is link copied main brach) main
+
+Modifying / Deleting the value in the particular txt file will be same.
+
+
+Github to VS-Code :
+If any folder ceated in  the github change will be come to VS code :
+git pull
+
+
+Creating New Folder adding file then pushing to the github:
+Nee to change the folder into git folder so :
+git init ( will make a empty repositories the create two working places like cloned places and working places)
+
+Over all untracked file to staging area :
+git  add .(dot)
+If u need to check ( git status)
+This will make all the untracked file to staging area then need to commit .
+Git commit -m “created all the html and css file.
+
+Then need to push the folder into github:
+But it got some errors so go to github and make a new repositories and copy the code :
+Then git remote add orgin ( link of new repositories)
+Then it will be connected to the orgin .
+
+Git brach comment will show the brach.
+Need to verify the brach git always has master brach.
+Else need to change the branch name like 
+git brach -M main
+
+then comment to push 
+git push orgin main
+
+
+Branch switching and creating :
+Git brach -a will show all the braches .
+if you need any other braches in this same braches then create the brach in github and then pull comment in VS.
+
+Switching the brach one to another brach then use comment git chechkout <brach_name>.
+If u make changes any sub braches then it wil not be shown in main braches.
+So check difference use comment git diff <brach_name_created>.
+
+Merging the created brach to main brach use comment :
+git merge <brach_name_created>.
+Then git push orgin main.
+// Then new updated main braches will be shown in the github.
+
+
+PULL-REQUEST ( CANT USE IN COMMENT PROMPT)
+We cant access the main repositories at the time notifying the main braches that we make a changes in new braches check and add to the main braches .
+Then it will be verified by the bosses and it will added to the main braches.
+PULL request option will be in github apps . the write the description the give pull request.
+Then boss will notifying the pull request message after verifying the request then it will change the main files. 
+
+
+CONFLICTS :
+If any file can be modifed by two members then git will confuse what would I do first .
+This conflict will be resolve by the boss . he Enter the resolve changes and then he enter what he needs then it will be merged with the main braches.
+
+If you need to pull from another brache use comment git pull origin main
+
+

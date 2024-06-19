@@ -1,0 +1,70 @@
+1. Version = git --Version
+
+Configuration 
+
+1.git config --global user.name "Giri"
+2.git config --global user.email "madheswaran1100@gmail.com"
+
+make directory - mkdir <name>
+cd <name>
+
+git init 
+
+git branch
+
+git add --all 
+
+git commit -m "message"
+
+git status -short  ( will show the filw which are modified )
+
+git log
+
+git --help
+
+git help -all
+
+Branch 
+git branch <name>  ( it will create the branch which can't make any changes in main file or folder )
+
+git branch ( it will shows how many branches which are opened and which branch we are in the working location)
+
+git checkout <name> ( will change the branch location one to another)
+
+git checkout -b emergency-fix ( will the temp file which use to change the modification)
+
+then git add. -> git commit -m "msg" 
+
+git status (will shows the git current status wheather it comiit or not commit changes made or not )
+
+
+
+git branch -d <name> ( will delete the branch after it merge )
+
+git merge <branch name> ( sub branch will merged to main branches and changes are modified )
+
+_______________________________________________________________________________________________________________
+
+Fetch 
+fetch gets all the change history of a tracked branch/repo.
+
+git log ( will show the log details)
+
+git diff <brach1>/<brach2> ( will shows the difference between the two branches)
+
+git pull ( will use to update the changes in local git)
+
+git push ( will make changes in main directory)
+
+git branch -a ( will shows the all the sub branch and current branch views)
+
+then git pull ( will make all the changes verify)
+
+Git Flow 
+1.clone
+2.change
+3.commit
+4.verify
+5.pull request
+6.merge
+
